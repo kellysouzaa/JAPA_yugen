@@ -235,8 +235,9 @@ nav ul li a:hover {
   padding: 1%;
   text-align: center;
   border-radius:5px; /*arredondado*/
-  border-style: groove; /*estilo da borda */
-  border-color: rgb(53, 41, 41); /*cor da borda*/
+ /* border-style: groove; estilo da borda */
+  /*border-color: rgb(18, 17, 13); cor da borda*/
+  background-color: rgb(3, 5, 5);
 }
 
 
@@ -266,11 +267,11 @@ nav ul li a:hover {
   flex-wrap: wrap; 
   justify-content:center; /*alinhamento na horizontal*/
   align-items:center; /*alinhando os blocos na vertical */
-  width:25%;
+  width:30%;
   height: 200px;
   
   margin: 1%; /*Espaço entre as caixas*/
-  padding: 2%; /*espaço entre o conteudo e as bordas*/
+  padding:1%; /*espaço entre o conteudo e as bordas*/
   border-radius: 10px; /*borda arredondada*/
   text-align: center;
   font-family:Merriweather Verdana, Geneva, Tahoma, sans-serif;
@@ -278,6 +279,7 @@ nav ul li a:hover {
   line-height: 1.6;
   color: azure;
   font-size: 1em;
+  background-color: rgb(3, 5, 5);
   
   
 }
@@ -336,9 +338,10 @@ nav ul li a:hover {
 /* tamanho do ícone das redes sociais */
 
 .tamanhoIcone{
-  width: 3%;
+  width: 2%;
   height: auto;
-  padding: 1%;
+  padding-top: 2%;
+  padding-right: 1%;
 }
 
 /* retirando traço do link das imagens das redes */
